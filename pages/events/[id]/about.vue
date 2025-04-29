@@ -6,4 +6,6 @@
 <script setup>
 const route = useRoute();
 console.log('Route params:', route.params);
+const nuxt = useNuxtApp();
+console.log('Nuxt app:', nuxt);
 </script>

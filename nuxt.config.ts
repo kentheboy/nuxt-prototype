@@ -5,12 +5,7 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "./src"),
   },
   css: ["@/assets/css/main.scss"],
+  modules: ['@nuxtjs/tailwindcss'],
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  postcss: {
-    plugins: {
-      '@tailwindcss/postcss': {}, 
-      autoprefixer: {},
-    },
-  },
 });

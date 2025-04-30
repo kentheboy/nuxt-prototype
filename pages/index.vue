@@ -1,6 +1,5 @@
 <template>
     <div>
-        Heello index
-        <Alert/>
+        Hello index
     </div>
 </template>

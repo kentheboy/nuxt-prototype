@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "./src"),
   },
   css: ['@/assets/css/main.scss'],
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@vueuse/nuxt',
+  ],
   devtools: { enabled: true },
 });
